@@ -1,0 +1,389 @@
+/* - - - - - - - - - - - - Sign in image - - - - - - - - - - - - - - -  */
+
+.Fondo{
+  background-color: #FF0000;
+
+
+}
+
+.label1{
+  background:black;
+
+  }
+
+
+
+.post-container {
+  background:#fff;
+  padding:50px;
+  width:50%;
+  margin:40px auto;
+  box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12);
+  font-family:'Work Sans',sans-serif;
+  }
+  
+  
+  .post_heading {
+  text-align:center;
+  font-weight:400;
+  font-size:40px;
+  color:#636363;
+  }
+  
+  
+  .form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+
+.title {
+  text-align: center;
+}
+
+
+.sign-in-background-crop {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+}
+
+.sign-in-background{
+
+  object-fit: contain;
+  background-position: center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.background2{
+  display: none !important;
+}
+
+.logout-button{
+  margin-top: 10px;
+  right: 5%;
+  height: 30px !important;
+  background-color: #0068b0 !important;
+  color: white !important;
+  z-index: 5;
+}
+
+.logout-col{
+  text-align: right !important;
+}
+
+/* ----------------------- Sing in form image -------------------------- */
+
+.home-form{
+  width: 480px;
+  height: 500px !important;
+  padding: 35px 35px 25px 35px !important;
+  opacity: 1;
+  left: 46%;
+  margin: 150px 0px 20px -50px !important;
+
+  position: absolute;
+  border-radius: 4px;
+  background-color:#0000004d;
+  box-shadow: 0 6px 10px 7px rgba(0, 0, 0, 0.2) !important;
+}
+
+.home-form-edit{
+  width: 480px;
+  height: 300px !important;
+  padding: 35px 35px 25px 35px !important;
+  opacity: 1;
+  margin:100px auto;
+  border-radius: 4px;
+  background-color:#0000004d;
+  box-shadow: 0 6px 10px 7px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-form{
+  background-color: transparent !important;
+  border: transparent !important;
+  height: 130px !important;
+}
+
+.avatar-uploader > .ant-upload {
+  margin-left: 35px !important;
+  width: 50% !important; 
+
+}
+
+@media only screen and (max-width:950px) {
+
+  .background2{
+    display: flex !important;
+  }
+
+  .sign-in-background{
+    display: none !important;
+  }
+  
+  .home-form{
+    width: 90%;
+    padding: 50px 40px 30px 40px !important;
+    left: 1% !important;
+    right: 1% !important;
+    opacity: 0.8;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+  }
+
+  .button-edit{
+    width: 90%;
+    padding: 50px 40px 30px 40px !important;
+    left: 1% !important;
+    right: 1% !important;
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+    margin-right: 30px !important;
+    margin-left: 3000px !important;
+  }
+
+  
+
+} 
+
+@media only screen and (max-width:582px) {
+
+  .background2{
+    display: flex !important;
+  }
+
+  .title-edit{
+    margin-top:-100 !important;
+  }
+
+  .sign-in-background{
+    display: none !important;
+  }
+
+  .home-form{
+    width: 95%;
+    padding: 50px 40px 30px 40px !important;
+    left: 1% !important;
+    right: 1% !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-right: 5px !important;
+    margin-left: 4px !important;
+  }
+  
+}
+
+.home-small-button{
+  width: 100%;
+}
+
+.home-a{
+  font-size: 13px;
+  color: white;
+}
+
+.home-a:hover{
+  font-size: 13px;
+  color: #ffe800;
+}
+
+.transparent-button:not([disabled]){
+  color: white !important;
+  border-color: #ffe800 !important;
+  background-color: transparent !important;
+}
+
+.ant-btn[disabled].transparent-button{
+  color: rgba(0, 0, 0, 0.25) !important;
+  border-color: #d9d9d9 !important;
+  background-color: #f5f5f5 !important;
+}
+
+.transparent-button:hover, .transparent-button:focus{
+  color: white !important;
+  border-color: #ffe800 !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.home-form-item{
+  margin-bottom: 8px !important;
+}
+
+.bottom-upload{
+  width: 50% ! important;
+}
+
+.react-tel-input{
+  height: 32px !important;
+}
+.react-tel-input .flag-dropdown{
+  margin-top: 4px !important;
+  margin-bottom: -4px !important;
+  background-color: white !important;
+}
+.react-tel-input .form-control{
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  font-variant: tabular-nums !important;
+  list-style: none !important;
+  font-feature-settings: 'tnum', "tnum" !important;
+  position: relative !important;
+  display: inline-block !important;
+  width: 100% !important;
+  height: 32px !important;
+  color: rgba(0, 0, 0, 0.65) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  background-color: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 4px !important;
+  transition: all 0.3s !important;
+}
+.react-tel-input .form-control:hover{
+  border-color: #40a9ff !important;
+  border-right-width: 1px !important;
+}
+
+.home-remember-div{
+  margin-top: 8px !important;
+}
+
+.ant-select-selection__choice{
+  font-size: 12px !important;
+}
+/* -------------------------------------------------------------------- */
+
+/* - - - - - - - - - - - - Home logo - - - - - - - - - - - -  */
+.home-logo-div {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-logo-container {
+  padding: 10px;
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 20px;
+  display: inline-flex;
+  background-color: white;
+  border: 3px solid #096dd9;
+}
+
+.home-logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* - - - - - - - - - - - - End Home logo - - - - - - - - - -  */
+
+/* --------------------------- Icons ------------------------------ */
+.icon-prefix{
+  color: rgba(0,0,0,.25);
+}
+
+/* -------------------------- Checkbox -------------------------------- */
+.checkbox-terms-conditions{
+  color: white;
+  left: auto !important;
+}
+
+/* ------------------------- Buttons section ---------------------------- */
+.home-buttons-div{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.home-buttons-div button{
+  margin: 5px 5px;
+}
+/* --------------------- Anticon --------------------- */
+.home-buttons-div .question-button{
+  fill: rgba(0, 0, 0, 0.65);
+  font-size: 14px !important;
+  cursor: pointer !important;
+  color: #096dd9;
+}
+.home-buttons-div .question-button:hover{
+  fill: #096dd9 !important;
+  color: #096dd9 !important;
+}
+/* ------------------------------------------------------- */
+.terms-color{
+  color: white !important;
+  font-size: 13px !important;
+  text-align: left;
+  margin-left: 10% !important;
+}
+
+.terms-conditions{
+  cursor: pointer;
+}
+
+
+.ant-form-explain{
+  color: #1890ff !important;
+}
+
+.has-error .ant-input-prefix{
+  color: #5f6267 !important;
+}
+
+.has-error .ant-select-selection{
+  border-color: #d8d51c !important;
+}
+
+.has-error .ant-input-affix-wrapper .ant-input:not(.ant-input-disabled){
+  border-color: #d8d51c !important;
+}
+
+.register-button {
+  background-color: #0068b0 !important; 
+  border-color: #0068b0 !important;
+  color: white !important;
+  height: 30px !important;
+  width: 90%;
+}
+
+.login-button{
+  background-color: #0068b0 !important; 
+  border-color: #0068b0 !important;
+  color: white !important;
+  height: 30px !important;
+  width: 90%;
+}
+
+.register-col{
+  text-align: right !important;
+}
+
+.login-col{
+  text-align: left !important;
+}
+
+.ant-popover{
+  height: 20px;
+}
+
+.ant-popover-inner-content{
+  font-size: 12px;
+  white-space: wrap !important;
+  width: 250px !important;
+}
+
+
+.input-number{
+  width: 100% !important;
+}
